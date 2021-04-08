@@ -7,6 +7,7 @@ body {
     width: 175px;
     margin-bottom: 50px;
     border-radius: 50%;
+    text-align: center;
 }
 
 #hello {
@@ -66,6 +67,7 @@ p {
     text-align: center;
     vertical-align: middle;
 }
+
 .menu {
     list-style: none;
     font-family: sans-serif;
@@ -91,3 +93,10 @@ p {
     background-color: dodgerblue;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
